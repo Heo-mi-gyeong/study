@@ -31,6 +31,10 @@
 	    }, [item, cnt]);
 
 ```
+🔴 문제
+
+    - useEffect → item(일정 목록을 담은 배열)의 요소 변경 인식 불가 
+    - item과 newItem의 값 비교 시 true 반환 (둘다 변경된 값 반영)
 
 ```jsx
 	const modify = (targetId, targetContent) => {
