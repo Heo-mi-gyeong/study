@@ -5,6 +5,7 @@
  - 일정 목록이 담긴 배열을 useEffect가 인식하지 못하는 문제 
 
 - useEffect 기본 형태 : useEffect ( function , deps)
+    - function : 수행하고자하는 작업
     - deps(dependence) : 배열 형태, **function을 실행시킬 조건**(특정 값을 넣게되면 컴포넌트가 마운트 될 때, 지정한 값이 업데이트 될 때 function을 실행)
 
 - 기존 코드
